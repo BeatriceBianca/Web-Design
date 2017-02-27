@@ -1,0 +1,115 @@
+#logo {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+body {
+    background-size: 100% 700px;
+    background-attachment: fixed;
+
+    font-size: 100%;
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+header {
+    background-color: peachpuff ;
+    margin-top: 30px;
+}
+
+#menu {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+#menu li{
+    display: inline;
+    padding: 5px 70px 5px 70px;
+    font-size: 1.5em;
+    width: 10%;
+    float: left;
+}
+
+#menu>li:nth-child(1) a{
+    color: red;
+ }
+
+#menu>li:nth-child(1):hover a {
+    color: white;
+}
+
+#menu>li:nth-child(1):hover {
+    background-color: red;
+}
+
+#menu>li:nth-child(2) {
+    color: orange;
+}
+
+#menu>li:nth-child(2):hover {
+    color: white;
+    background-color: orange;
+}
+
+#menu>li:nth-child(3) a{
+    color: green;
+}
+
+#menu>li:nth-child(3):hover a {
+    color: white;
+}
+
+#menu>li:nth-child(3):hover {
+    background-color: green;
+}
+
+#menu>li:nth-child(4) a {
+    color: blue;
+}
+
+#menu>li:nth-child(4):hover a {
+    color: white;
+}
+
+#menu>li:nth-child(4):hover {
+    background-color: blue;
+}
+
+#menu>li a {
+    text-decoration: none;
+}
+
+#menu>li:nth-child(2)>ul {
+    font-size: 0.6em;
+    display: none;
+    position: absolute;
+}
+
+#menu>li:nth-child(2)>ul>li {
+    display: inline-block;
+}
+
+#menu>li:nth-child(2):hover #meniu {
+    display: block;
+}
+
+#body {
+    background-color: peachpuff;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+p {
+    padding-top: 1000px;
+}
