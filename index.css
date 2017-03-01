@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: peachpuff ;
+    background: linear-gradient(to bottom right, pink, red);
     position: fixed;
     top: 0;
     width: 85%;
@@ -50,12 +50,15 @@ header {
     background-color: red;
 }
 
-#menu>li:nth-child(2) {
+#menu>li:nth-child(2) a{
     color: orange;
 }
 
-#menu>li:nth-child(2):hover {
+#menu>li:nth-child(2):hover a {
     color: white;
+}
+
+#menu>li:nth-child(2):hover {
     background-color: orange;
 }
 
@@ -87,44 +90,12 @@ header {
     text-decoration: none;
 }
 
-#meniu>li {
-    color: red;
-    display: block;
-    text-align: center;
-}
-
-#meniu {
-    display: none;
-    position: absolute;
-    padding: 10px;
-    list-style-type: none;
-    border-top: 1px solid white;
-    background-color: orange;
-    width: 20%;
-
-}
-
-#meniu>li a {
-    text-decoration: none;
-}
-
-#menu>li:hover #meniu {
-    display: block;
-}
-
 #body {
-    background-color: peachpuff;
+    background-color: lightpink;
     font-size: 20px;
-    margin: 320px auto auto auto;
     width: 75%;
     display: block;
-}
-
-h1 {
-    text-align: center;
-    color: darkgreen;
-    font-size: 50px;
-    padding-top: 10px;
+    margin: 230px auto auto auto;
 }
 
 p {
