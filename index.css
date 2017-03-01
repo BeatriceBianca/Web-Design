@@ -1,22 +1,22 @@
 #logo {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 30%;
 }
 
 body {
     background-size: 100% 700px;
     background-attachment: fixed;
-
-    font-size: 100%;
     display: block;
     margin: auto;
-    width: 75%;
+    width: 85%;
 }
 
 header {
-    background-color: peachpuff ;
-    margin-top: 30px;
+    background: linear-gradient(to bottom right, pink, red);
+    position: fixed;
+    top: 0;
+    width: 85%;
 }
 
 #menu {
@@ -24,19 +24,23 @@ header {
     text-align: center;
     padding-bottom: 15px;
     overflow: hidden;
+    list-style-type: none;
 }
 
-#menu li{
-    display: inline;
-    padding: 5px 70px 5px 70px;
-    font-size: 1.5em;
-    width: 10%;
+#menu>li{
+    font-size: 1.3em;
+    padding: 3px 50px 3px 50px;
+    width: 15%;
     float: left;
+}
+
+#menu>li a {
+    display: block;
 }
 
 #menu>li:nth-child(1) a{
     color: red;
- }
+}
 
 #menu>li:nth-child(1):hover a {
     color: white;
@@ -46,12 +50,15 @@ header {
     background-color: red;
 }
 
-#menu>li:nth-child(2) {
+#menu>li:nth-child(2) a{
     color: orange;
 }
 
-#menu>li:nth-child(2):hover {
+#menu>li:nth-child(2):hover a {
     color: white;
+}
+
+#menu>li:nth-child(2):hover {
     background-color: orange;
 }
 
@@ -83,33 +90,10 @@ header {
     text-decoration: none;
 }
 
-#menu>li:nth-child(2)>ul {
-    font-size: 0.6em;
-    display: none;
-    position: absolute;
-}
-
-#menu>li:nth-child(2)>ul>li {
-    display: inline-block;
-}
-
-#menu>li:nth-child(2):hover #meniu {
-    display: block;
-}
-
 #body {
-    background-color: peachpuff;
     font-size: 20px;
-    margin-top: 40px;
+    width: 75%;
+    display: block;
+    margin: 230px auto auto auto;
 }
 
-h1 {
-    text-align: center;
-    color: darkgreen;
-    font-size: 50px;
-    padding-top: 10px;
-}
-
-p {
-    padding-top: 1000px;
-}
