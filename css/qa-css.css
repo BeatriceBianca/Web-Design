@@ -1,0 +1,47 @@
+#body {
+    display: block;
+    background: linear-gradient(to bottom right, grey, lightgrey);
+}
+
+button {
+    display: block;
+    font-size: 15px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#categorii {
+    width: 35%;
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin: 20px auto auto auto;
+}
+
+#categorii>div {
+    display: inline-flex;
+    padding: 15px;
+}
+
+#categorii>div {
+    display: inline-flex;
+    padding: 15px;
+}
+
+#categorii>div:nth-child(2) {
+    border-top: 2px solid dodgerblue;
+    border-left: 2px solid dodgerblue;
+    border-right: 2px solid dodgerblue;
+    border-radius: 8px 8px 0 0;
+}
+
+#categorii>div:hover {
+    border-top: 2px solid dodgerblue;
+    border-left: 2px solid dodgerblue;
+    border-right: 2px solid dodgerblue;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+}
+

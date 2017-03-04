@@ -12,7 +12,28 @@
     padding-bottom: 15px;
 }
 
-#intrebare, #trimite {
+#butoane {
     display: block;
     margin: auto;
+    width: 20%;
+    height: 50px;
+}
+
+#intrebare {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 75px;
+    padding: 20px;
+}
+
+#var {
+    width: 32%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container>div {
+    margin-left: 50px;
 }
