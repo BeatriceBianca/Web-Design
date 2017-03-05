@@ -1,0 +1,20 @@
+#body {
+    display: block;
+    background: linear-gradient(to bottom right, grey, lightgrey);
+}
+
+#categorii {
+    width: 35%;
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin: 20px auto auto auto;
+}
+
+ul>li {
+    padding-bottom: 15px;
+}
+
+ul>li>a {
+    color: darkblue;
+}
+
